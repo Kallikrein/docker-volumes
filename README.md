@@ -62,6 +62,9 @@ compile it yourself:
 git clone https://github.com/cpuguy83/docker-volumes.git
 cd docker-volumes
 go get
+cd $GOPATH/src/github.com/docker/docker/pkg/pools
+git checkout release
+cd $GOPATH/src/github.com/cpuguy83/docker-volumes
 go build
 ```
 
